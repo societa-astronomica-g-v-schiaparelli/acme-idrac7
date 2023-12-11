@@ -13,3 +13,6 @@ export DEPLOY_IDRAC_USER="idrac_user"
 acme.sh --issue --dns dns_cf -d "idrac.domain.com" -k 2048
 acme.sh --deploy -d "idrac.domain.com"  --deploy-hook idrac
 ```
+
+## Credits
+https://github.com/kroy-the-rabbit/acme_idrac_deployment

@@ -10,6 +10,10 @@
 # acme.sh --issue --dns dns_cf -d "idrac.domain.com" -k 2048
 # acme.sh --deploy -d "idrac.domain.com"  --deploy-hook idrac
 
+# This a modified script taken from: https://github.com/kroy-the-rabbit/acme_idrac_deployment
+# Copyright (c) 2020 kroy-the-rabbit
+# Copyright (c) 2023 Societa` Astronomica G.V. Schiaparelli
+# SPDX-License-Identifier: MIT
 
 idrac_deploy() {
   _cdomain="$1"
