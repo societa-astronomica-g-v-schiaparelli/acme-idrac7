@@ -1,7 +1,7 @@
 # Dockerfile for the idracadm7 based on the RHEL 9 UBI
 # Copyright (c) 2023 Societa` Astronomica G.V. Schiaparelli
 
-FROM registry.access.redhat.com/ubi9/ubi:latest
+FROM almalinux:9
 
 RUN curl -O https://linux.dell.com/repo/hardware/dsu/bootstrap.cgi
 RUN echo "y" | bash bootstrap.cgi
